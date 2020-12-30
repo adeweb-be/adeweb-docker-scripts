@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "adeweb-docker-scripts"
+version = "0.1.1"
+description = ""
+authors = ["Antoine Duchene <antoineduchene@icloud.com>"]
+readme = "README.rst"
+
+[tool.poetry.scripts]
+hdock = "adeweb_docker_scripts.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = "^0.3.2"
+humanize = "^3.2.0"
+docker = "^4.4.1"
+rich = "^9.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
