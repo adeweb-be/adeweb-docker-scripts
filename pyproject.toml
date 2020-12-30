@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "adeweb-docker-scripts"
-version = "0.1.1"
-description = ""
+version = "v0.1.2"
+description = "Various Docker scripts to facilitate server management and apps debugging"
 authors = ["Antoine Duchene <antoineduchene@icloud.com>"]
+license = "MIT"
+repository = "https://github.com/adeweb-be/adeweb-docker-scripts"
 readme = "README.rst"
 
 [tool.poetry.scripts]
